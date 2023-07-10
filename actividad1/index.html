@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <h1>
+        Formulario de Consultas Bancarias
+    </h1>
+  
+    <form>
+      <label for="tipo-cuenta">Tipo de cuenta:</label>
+      <br>
+      <input type="radio" id="cuenta-corriente" name="tipo-cuenta" value="cuenta-corriente">
+      <label for="cuenta-corriente">Cuenta Corriente</label>
+      <br>
+      <input type="radio" id="cuenta-ahorros" name="tipo-cuenta" value="cuenta-ahorros">
+      <label for="cuenta-ahorros">Cuenta de Ahorros</label>
+      <br><br>
+  
+      <label for="preguntas">Preguntas:</label>
+      <br>
+      <textarea id="preguntas" name="preguntas" rows="4" cols="50"></textarea>
+      <br><br>
+  
+      <label for="email">Email:</label>
+      <br>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+  
+      <label for="telefono">Teléfono:</label>
+      <br>
+      <input type="tel" id="telefono" name="telefono" required>
+      <br><br>
+  
+      <input type="submit" value="Enviar">
+    </form>
+  </body>
+
+</html>
